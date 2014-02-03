@@ -1,0 +1,38 @@
+body{background-image:url('background.png');font:10pt tahoma,helvetica,verdana,arial;margin:5px auto;width:1024px;height:700px; }
+h1,h2,h3,h4,p{line-height:19px;margin:1px;padding:0;}
+a{color:blue;padding:2px 5px 0 0;text-decoration:none;}
+a:hover{color:#66FF99;}
+.bg{background-image:url('background.png')}
+.backframe{background-image:url('background.png');overflow:hidden;}
+.passbg{background-image:url('banner.png');overflow:hidden;height:95px;text-align:right;}
+.buttonBg{background-image:url('bg.jpg');color:Teal;height:25px;text-align:center;width:100%;}
+.HeaderBg{background-image:url('banner.png');background-repeat:repeat-y;height:128px;overflow:hidden;vertical-align:bottom;width:100%;}
+.titleclass{color:Gray;font-size:12pt;text-align:left;}
+.divFooter{background-image:url('');background-position:right;height:30px;width:100%;}
+.headerLinks{color:teal;font-size:8.5pt;padding:3px;text-decoration:none;}
+.tabheader{background-image:url(http://static.cocubes.com/pics/buttons-tab-top.gif);background-repeat:repeat-x;height:23px;position:relative;width:100%;}
+.tabheader ul{background:inherit;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0;}
+.tabheader li{border-color:#BBB;border-style:solid;border-width:1px 1px 0;cursor:pointer;float:left;margin:0;margin-left:5px;}
+.tabheader a{background:none repeat scroll 0;color:#00C;color:Gray;display:block;padding:.24em 1em;text-align:center;text-decoration:none;}
+.tabheader a:hover{background:none repeat scroll 0;color:Black;cursor:pointer;}
+.tabheader .selected{border-color:gray;}
+.tabheader .selected a{background-color:#fff;color:black;font-weight:bold;position:relative;top:1px;}
+.bottomLinks{color:blue;font-size:8pt;}
+/* JS disabled styles */  
+.list li:hover ul { display:block; }  
+  
+/* base list styles */  
+.list { display:block; margin:0 auto 3px;  position:relative; background-color:#336633;color:#0B2161; font:18px Tahoma, Sans-serif;}
+.list ul { padding:0; margin:0;color:#99FFFF;}
+.list li { position:relative; float:left; list-style-type:none;color:#99FFFF;width:204.5px;text-align:center}
+.list ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden;color:#99FFFF; }
+.list li a { display:block; padding:1px ;  border-left:1px solid #99FFFF;   color:#eee; text-decoration:none;color:#00B945; }
+.list li a:focus { outline:none; text-decoration:underline;color:#99FFFF; }
+.list li:first-child a { border-left:none;color:#00B945; }  
+.list li.last a { border-right:none;color:#99FFFF;}
+.list a span { display:block; float:right; margin-left:5px;color:#99FFFF; }
+.list ul ul { display:none; width:100%; position:absolute; left:0; background:#336633; color:#99FFFF;}
+.list ul ul li { float:none;color:#99FFFF;}
+.list ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:12px;color:#00B945; }  
+.list ul ul a:hover { background-color:#99FFFF;color:black; }
+.list li a:hover { background-color:#336633;color:black; }
